@@ -1,0 +1,48 @@
+.notificationpage{
+    
+    display: flex;
+    background-color: white;
+}
+.filter{
+    width: 20vw;
+    padding: 7px;
+}
+ a{
+    text-decoration: none;
+}
+ li,h4{
+    text-align: left;
+    color: gray;
+    list-style: none;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.filter li:hover{
+    background-color: rgb(233, 233, 233);
+}
+.box{
+    width: 60vw;
+    padding: 7px;
+    background-color: rgb(248, 249, 250);
+}
+.notificationHeading{
+    display: flex;
+}
+/* .box h4{
+    margin: 30% 25%;
+    font-size: 35px;
+} */
+.box h5{
+    align-items: right;
+    justify-content: right;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+.box1 ,.box2 ,.box3,.box4{
+    width: 35vw;
+    height: 8vh;
+    border: 2px solid silver;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}

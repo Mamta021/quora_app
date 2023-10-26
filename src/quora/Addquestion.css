@@ -1,0 +1,72 @@
+.addquestion{
+    width: 50vw;
+    background-color: #fff;
+    padding: 17px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+    position: fixed;
+    transform: translate(50% , 5%);
+    transition: 5s;
+    box-shadow: 2px 2px;
+}
+.addquestionbtn {
+    width: 200px;
+    height: 50px;
+    border:none;
+    border-bottom: 3px solid blue;
+    background-color: #fff;
+}
+.createpostbtn{
+    width: 200px;
+    height: 50px;
+    border:none;
+    background-color: #fff;
+}
+.createpostbtn :hover{
+    background-color: rgb(233, 233, 233);
+}
+.addquestionbtn  :hover{
+    background-color: rgb(233, 233, 233);
+}
+.publicbtn button{
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+}
+#textarea{
+    width: 45vw;
+    border: none;
+    text-decoration-line: underline;
+}
+.btn2{
+   display: flex; 
+   align-items: right;
+   justify-content: right;
+   gap: 5px;
+}
+ .createbtn {
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+}
+.cancelbtn{
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: black; 
+}
+.cancelbtn :hover{
+    border: 1px solid black;
+}
+.questionSection{
+    visibility: visible;
+}
+.postSection{
+    visibility: hidden;
+}

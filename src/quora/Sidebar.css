@@ -1,0 +1,33 @@
+.sidebar{
+    width: 18vw;
+    background-color: rgb(205, 207, 209);
+    padding: 20px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.sidebar li{
+    text-align: left;
+    list-style: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar li:hover{
+    background-color: rgb(195, 198, 199);
+}
+.sidebar a{
+    text-decoration: none;
+    color: gray;
+    border-radius: 10%;
+}
+.create_space{
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 25%;
+    background-color: rgb(195, 198, 199);
+    text-align: center;
+}
+
+

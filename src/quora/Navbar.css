@@ -1,0 +1,39 @@
+.navbar{
+    width: 99vw;
+    height: 45px;
+    margin-left: -1px;
+    margin-top: -5px;
+    color: grey;
+    display: flex;
+}
+.logo{
+    color: brown;
+}
+.navbar-nav{
+    display: flex;
+    gap: 25px;
+}
+.navbar-nav a:hover{
+    fill:brown;
+}
+.navbar-nav form input{
+    width: 22vw;
+}
+.profile{
+    width: 45px;
+    height: 45px;
+    padding: 7px;
+
+}
+.tryquora{
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid silver;
+    background-color: rgb(233,233,233);
+}
+#btnGroupDrop1{
+    background-color: brown;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10%;
+}

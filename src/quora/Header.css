@@ -1,0 +1,27 @@
+.header{
+    width: 50vw;
+    height: 18vh;
+    border: 1px solid silver;
+    background-color: white;
+    margin-left : 26%;
+    margin-top: -27%;
+}
+.header input{
+    width: 80%;
+    height: 38px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.header button{
+    width: 32%;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.header button:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 8px;
+}
